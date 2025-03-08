@@ -2,6 +2,9 @@
 
 This project compares the performance of three BERT variants — **DistilBERT**, **MobileBERT**, and **TinyBERT** — for detecting fake news. Each model has been fine-tuned on a custom dataset containing approximately 50% fake and 50% reliable news articles.
 
+![Example Image](example.png)
+
+
 ## Table of Contents
 - [Installation](#installation)
 - [Dataset](#dataset)
