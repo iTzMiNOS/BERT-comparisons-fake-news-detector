@@ -14,10 +14,11 @@ This project compares the performance of three BERT variants — **DistilBERT**,
 ## Installation
 
 To run this project locally, clone the repository and install the required dependencies:
-
+```
 git clone https://github.com/yourusername/BERT-comparisons-fake-news-detector.git
 cd BERT-comparisons-fake-news-detector
 pip install -r requirements.txt
+```
 
 Ensure you have Python 3.7+ installed, as well as any necessary dependencies for Streamlit and the Hugging Face transformers library.
 
