@@ -6,8 +6,6 @@ This project compares the performance of three BERT variants — **DistilBERT**,
 - [Installation](#installation)
 - [Dataset](#dataset)
 - [Models](#models)
-- [Results](#results)
-- [Usage](#usage)
 - [Demo](#demo)
 - [License](#license)
 
@@ -45,7 +43,7 @@ The models are trained to classify news articles as either fake or reliable.
 
 You can try out the demo of this project by visiting the following link:
 
-[Fake News Detection](#)
+[Fake News Detection](https://bert-comparisons-fake-news-detector.streamlit.app/)
 
 The demo allows you to input news articles and see how the models classify them as either fake or reliable.
 
