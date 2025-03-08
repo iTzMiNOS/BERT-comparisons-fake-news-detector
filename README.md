@@ -18,17 +18,17 @@ To run this project locally, clone the repository and install the required depen
 ```bash
 git clone https://github.com/yourusername/BERT-comparisons-fake-news-detector.git
 cd BERT-comparisons-fake-news-detector
-pip install -r requirements.txt
+pip install -r requirements.txt```
 Ensure you have Python 3.7+ installed, as well as any necessary dependencies for Streamlit and the Hugging Face transformers library.
 
-Dataset
+## Dataset
 The dataset used in this project consists of news articles labeled as either fake or reliable. The dataset contains approximately 50% fake news articles and 50% reliable news articles.
 
 Fake News: 50% of the dataset.
 Reliable News: 50% of the dataset.
 Each article was preprocessed to clean the text before being used to train the models.
 
-Models
+## Models
 This project leverages three BERT variants, each fine-tuned on the dataset:
 
 DistilBERT: A smaller, faster variant of BERT, offering a good trade-off between speed and performance.
@@ -36,46 +36,12 @@ MobileBERT: A mobile-optimized version of BERT, designed to run efficiently on m
 TinyBERT: An even more compact version of BERT, tailored for latency-sensitive applications with minimal resources.
 The models are trained to classify news articles as either fake or reliable.
 
-Results
-After fine-tuning the models, their performance is evaluated using key metrics such as:
-
-Accuracy
-Precision
-Recall
-F1-score
-These metrics allow for a comprehensive comparison of each model's ability to detect fake news.
-
-Usage
-To fine-tune and evaluate each model, you can use the following commands:
-
-bash
-Copy
-# Fine-tune and evaluate DistilBERT
-python train.py --model distilbert
-
-# Fine-tune and evaluate MobileBERT
-python train.py --model mobilebert
-
-# Fine-tune and evaluate TinyBERT
-python train.py --model tinybert
-For making predictions on new news articles, run the following:
-
-bash
-Copy
-python predict.py --model distilbert --text "Your news article text here"
-You can replace distilbert with mobilebert or tinybert to use those models for predictions.
-
-Demo
+## Demo
 You can try out the demo of this project by visiting the following link:
 
-Demo: Fake News Detection
+Fake News Detection
 
 The demo allows you to input news articles and see how the models classify them as either fake or reliable.
 
 License
 This project is licensed under the MIT License - see the LICENSE file for details.
-
-pgsql
-Copy
-
-This is the full content in Markdown format. Just copy and paste it directly into your `README.md` file! Let me know if you need further adjustments.
